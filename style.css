@@ -56,7 +56,7 @@ ul {
 
 /*** 6.0 - Body ***/
 body {
-  background-color: var(--Lightgray);
+  background-color: var(--LightGrayishBlue);
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -119,6 +119,10 @@ body {
 .testimony-5 {
   color: var(--VeryDarkBlackishBlue);
   background-color: white;
+}
+
+.testimony q {
+  color: var(--Lightgray);
 }
 
 /*** 5.2 - Imagery ***/
