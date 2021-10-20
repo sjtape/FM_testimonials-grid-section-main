@@ -64,7 +64,7 @@ body {
   max-width: 1440px;
   color: white;
   margin: 0 auto;
-  
+
 }
 
 .testimonials-list {
@@ -73,7 +73,6 @@ body {
   justify-content: center;
   align-content: center;
   padding: 2em;
-  max-width: 1440px;
 }
 
 .testimony {
@@ -138,7 +137,7 @@ body {
     grid-template-areas: 'testimony-1 testimony-1 testimony-2 testimony-5'
       'testimony-3 testimony-4 testimony-4 testimony-5';
     grid-template-rows: 50%;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .testimony-1 {
