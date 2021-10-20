@@ -99,6 +99,7 @@ body {
 
 .profile h3 {
   margin-bottom: 0.3rem;
+  font-weight: 600;
 }
 
 
@@ -117,12 +118,18 @@ body {
 
 .testimony-3,
 .testimony-5 {
-  color: var(--VeryDarkBlackishBlue);
+  color: var(--VeryDarkGrayishBlue);
   background-color: white;
 }
 
 .testimony q {
-  color: var(--Lightgray);
+  line-height: 1.5em;
+  opacity: 70%;
+  font-weight: 500;
+}
+
+.verified {
+  opacity: 50%;
 }
 
 /*** 5.2 - Imagery ***/
