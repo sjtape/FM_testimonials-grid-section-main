@@ -106,6 +106,13 @@ body {
 /*** 5.1 - Sliders ***/
 .testimony-1 {
   background-color: var(--ModerateViolet);
+  position: relative;
+}
+.testimony-1:after{
+  content: url(./images/bg-pattern-quotation.svg);
+  position: absolute;
+  top: 0;
+  right: 2em;
 }
 
 .testimony-2 {
